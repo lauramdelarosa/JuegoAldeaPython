@@ -1,19 +1,15 @@
 # -*- coding: utf-8 -*-
 
-#Importamos algunos modulos
+# Importamos algunos modulos
 
-import sys
-import os
+# libreria para ansi escape.
 import colorama
 
-#Importamos nuestras clases y funciones
+# Importamos nuestras clases y funciones
+from AldeaT_v3 import Juego
 
-from Ataca_a_los_orcos_V1_0_0 import Juego
-
-#CODIGO principal
-
+# Aqui inicia todo
 if __name__ == '__main__':
-    #para resolver el ansi escape (negrita en el terminal)
     colorama.init()
     game = Juego()
     game.play()

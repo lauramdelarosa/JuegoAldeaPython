@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from Funciones import *
 
+
 class Choza:
     def __init__(self, numero, ocupantes):
         self.ocupantes = ocupantes
@@ -10,9 +11,9 @@ class Choza:
     def conquistar(self, nuevo_ocupante):
         self.ocupantes = nuevo_ocupante
         self.conquistada = True
-        print_bold("¡Buena trabajo! La choza %d ha sido conquistada"% self.numero)
+        print_bold("¡Buena trabajo! La choza %d ha sido conquistada" % self.numero)
 
-    def Tipo_de_ocupante(self):
+    def tipo_de_ocupante(self):
         if self.conquistada:
             tipo_ocupante = 'Conquistada'
         elif self.ocupantes is None:

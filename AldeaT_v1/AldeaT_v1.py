@@ -28,7 +28,7 @@ if __name__ == '__main__':
           "su stock de alimentos, decidió tomar un desvío. Al acercarse, vio cinco chozas. No había nadie alrededor. "
           "En ese instante, decidió entrar en un choza...")
 
-    print(textwrap.fill(msg, width = ancho_linea))
+    print(textwrap.fill(msg, width=ancho_linea))
     print("\033[1m"+"Misión:"+"\033[0m")
     print("Elige una choza donde poder descansar...")
     print("\033[1m"+"NOTA:"+"\033[0m")
