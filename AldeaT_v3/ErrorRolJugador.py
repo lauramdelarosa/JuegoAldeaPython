@@ -2,8 +2,6 @@ from __future__ import print_function
 
 
 class GameUnitError(Exception):
-    """Custom exceptions class for the `AbstractGameUnit` and its subclasses
-    """
 
     def __init__(self, message='', code=000):
         try:
